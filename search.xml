@@ -471,24 +471,6 @@ HKEY_CLASSES_ROOT\Excel.Sheet.8\shell\Open\command</code></pre>
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/archives/hello-world.html</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo server</code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo generate</code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo deploy</code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>尝试系统学习使用 Zotero</title>
     <url>/archives/learn-to-use-zotero.html</url>
     <content><![CDATA[<p>[占坑]</p>
@@ -887,12 +869,12 @@ scoop bucket add spoon https:<span class="token operator">/</span><span class="t
   <entry>
     <title>常用设置及一些镜像站</title>
     <url>/archives/some-configurations.html</url>
-    <content><![CDATA[<h3 id="代理设置"><a href="#代理设置" class="headerlink" title="代理设置"></a>代理设置</h3><h4 id="CMD"><a href="#CMD" class="headerlink" title="CMD"></a>CMD</h4><pre class="language-shell" data-language="shell"><code class="language-shell"><span class="token comment"># 设置</span>
-<span class="token builtin class-name">set</span> <span class="token assign-left variable">http_proxy</span><span class="token operator">=</span>http://127.0.0.1:1080
-<span class="token builtin class-name">set</span> <span class="token assign-left variable">https_proxy</span><span class="token operator">=</span>http://127.0.0.1:1080
-<span class="token comment"># 取消</span>
-<span class="token builtin class-name">set</span> <span class="token assign-left variable">http_proxy</span><span class="token operator">=</span>
-<span class="token builtin class-name">set</span> <span class="token assign-left variable">https_proxy</span><span class="token operator">=</span></code></pre>
+    <content><![CDATA[<h3 id="代理设置"><a href="#代理设置" class="headerlink" title="代理设置"></a>代理设置</h3><h4 id="CMD"><a href="#CMD" class="headerlink" title="CMD"></a>CMD</h4><pre class="language-shell" data-language="shell"><code class="language-shell"># 设置
+set http_proxy&#x3D;http:&#x2F;&#x2F;127.0.0.1:1080
+set https_proxy&#x3D;http:&#x2F;&#x2F;127.0.0.1:1080
+# 取消
+set http_proxy&#x3D;
+set https_proxy&#x3D;</code></pre>
 
 <h4 id="PowerShell"><a href="#PowerShell" class="headerlink" title="PowerShell"></a>PowerShell</h4><pre class="language-powershell" data-language="powershell"><code class="language-powershell"><span class="token variable">$env</span>:http_proxy=<span class="token string">"127.0.0.1:1080"</span>
 <span class="token variable">$env</span>:https_proxy=<span class="token string">"127.0.0.1:1080"</span></code></pre>
